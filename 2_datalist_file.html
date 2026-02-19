@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>data list</title>
+</head>
+<body>
+    <form action="sucess.html">
+        <table border="1" cellpadding="10" cellspacing="5" align="center" width="80%"> 
+            <tr>
+                <td>
+                    <label for="source">source</label>
+                    <input type="text" name="source" id="source" required list="cities name">
+                </td>
+                <td>
+                    <label for="destination">destination</label>
+                    <input type="text" name="destination" id="destination" required list="cities name">
+                </td>
+                <td>
+                    <label for="journey_date">journey_date</label>
+                    <input type="date" name="journey_date" id="journey_date">
+                </td>
+                <td>
+                    <label for="seats">seats</label><br>
+                    <select name="seats" id="seats">
+                    <option value="1">1st seats</option>
+                    <option value="2">2nd seats</option>
+                    <option value="3">3rd seats</option>
+                    <option value="4">4th seats </option>
+                    <option value="5">5th seats</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="bus_type">bus type</label><br>
+                    <label for="volvo">
+                        <input type="radio" name="volvo" id="volvo">volvo
+                    </label>
+                    <label for="ac">
+                        <input type="radio" name="ac" id="ac">ac
+                    </label>
+                    <label for="non-ac">
+                        <input type="radio" name="non-ac" id="non-ac">non-ac
+                    </label>
+                </td>
+                <td>
+                    <label for="grnder">select gender</label><br>
+                    <label for="male">
+                        <input type="radio" name="male" id="male">male
+                    </label>
+                    <label for="female">
+                        <input type="radio" name="female" id="female">female
+                    </label>
+                </td>
+                <td>
+                    <button type="submit">submit</button>
+                    <button type="reset">clear all</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+<datalist id="cities name">
+
+        <option value="ahmedabad">
+        <option value="surat">
+        <option value="vadodara">
+        <option value="rajkot">
+        <option value="bhavnagar">
+        <option value="jamnager">
+        <option value="junagadh">
+        <option value="gandhinagar">
+        <option value="anand">
+        <option value="morbi">
+        <option value="bharuch">
+        <option value="mehsana">
+        <option value="porbandar">
+        <option value="vapi">
+        <option value="navsari">
+        <option value="talaja">
+        <option value="amreli">
+        <option value="dhasa">
+        <option value="talaja">
+        <option value="mahuva">
+    
+</datalist>
+</body>
+</html>
